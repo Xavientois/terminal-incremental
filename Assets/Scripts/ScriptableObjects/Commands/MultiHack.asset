@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3aa5bebe12a42c19d019bba6b066b5, type: 3}
+  m_Name: MultiHack
+  m_EditorClassIdentifier: 
+  keyword: multihack
+  description: Consume available hardware to hack more powerful machines
+  hackCosts:
+  - keyword: workstation
+    machineCostType: 0
+    costCount: 10
+    machineResultType: 1
+    resultCount: 1

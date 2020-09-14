@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14715509ed2ad4c91b4364d6ae96ba07, type: 3}
+  m_Name: OverclockMenu
+  m_EditorClassIdentifier: 
+  description: "\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\u2248\nIncrease
+    hacking speed by overclocking your processors.\n"
+  title: overclock
+  transitions:
+  - keyString: home
+    transitionDescription: Use 'cd home' to return to home menu.
+    valueMenu: {fileID: 11400000, guid: bbef3c1ad8d72440bb0ada8ce1869447, type: 2}
+  availableCommands:
+  - {fileID: 11400000, guid: c5e42163b1b5a41ed9bd6aa06f006510, type: 2}
+  - {fileID: 11400000, guid: 21f546daf7809417e825f3bdfffa875a, type: 2}
+  - {fileID: 11400000, guid: a0c932a570dad47878a1e28670baa1ef, type: 2}
+  - {fileID: 11400000, guid: 006b85c746c33446cbcb0d9ff5f953cf, type: 2}
+  historyEnabled: 1
+  echoInput: 1
+  shouldSplitInput: 1
