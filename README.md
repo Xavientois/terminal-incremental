@@ -5,3 +5,11 @@ This is still a work-in progress, but feel free to have a look at how the code i
 Some of the code remains from scrapped features (like menu navigation) but is still used for some small mechanics in the game (ie. user logins)
 
 Note that the user account in the game does not actually save anything. When you shut the game down, all progress is lost
+
+# How to Run
+
+## MacOS
+Download the repository and run HackOS_MacOS
+
+## Windows
+Download the repository, go to hackOS\ and run Text-Based Incremental.exe
