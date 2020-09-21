@@ -160,6 +160,11 @@ public class GameController : MonoBehaviour
 
     public bool HandleCommand(string[] arguments)
     {
+        if (arguments.Length == 0)
+        {
+            return true;
+        }
+
         Command[] availableCommands = menuNavigation.currentMenu.availableCommands;
 
         for (int i = 0; i < availableCommands.Length; i++)

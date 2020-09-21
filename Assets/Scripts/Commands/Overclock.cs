@@ -33,7 +33,7 @@ public class Overclock : Command
 
             if (spendSuccess)
             {
-                controller.PrintLn("Current hacking speed for " + Machine.Name(machineType) + "s: " + controller.currentUser.machineHackTime[(int)machineType] + "\n");
+                controller.PrintLn("Current hacking speed for " + Machine.Name(machineType) + "s: " + controller.currentUser.machineHackTime[(int)machineType] + " seconds\n");
 
                 controller.PrintLn("Corrupting " + machinesToSpend + " " + Machine.Name(machineType)
                     + "s to overclock hacking processor...");
